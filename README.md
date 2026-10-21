@@ -1,2 +1,2 @@
 # landing_page
-task 2
+This is the clone of the Digital Ocean landing page
