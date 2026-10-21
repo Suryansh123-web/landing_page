@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A student-built DigitalOcean-inspired cloud hosting landing page.">
+  <title>DigitalOcean | Cloud for Builders</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="navbar">
+    <a class="logo" href="#" aria-label="Ocean home">
+      <span class="logo-mark">◆</span> ocean
+    </a>
+
+    <button class="menu-toggle" aria-label="Open navigation"
+      aria-expanded="false" aria-controls="nav-links">☰</button>
+
+    <nav class="nav-links" id="nav-links">
+      <a href="#products">Products</a>
+      <a href="#features">Solutions</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#footer">Resources</a>
+    </nav>
+
+    <div class="nav-actions">
+      <a href="#pricing" class="login">Log in</a>
+      <a href="#pricing" class="btn btn-small">Sign up</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="products">
+      <div class="hero-content">
+        <p class="eyebrow">CLOUD COMPUTING FOR BUILDERS</p>
+        <h1>Build something<br> amazing.</h1>
+        <p class="hero-description">
+          Simple cloud infrastructure for developers.
+          Deploy, manage, and scale your applications
+          without the complexity.
+        </p>
+        <div class="hero-actions">
+          <a href="#pricing" class="btn">Get started</a>
+          <a href="#features" class="btn btn-outline">Explore products</a>
+        </div>
+        <p class="hero-note">Less complexity. More building.</p>
+      </div>
+
+      <div class="hero-visual" aria-label="Illustration of cloud infrastructure">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="cloud" aria-hidden="true">☁</div>
+        <div class="server server-one">▤ &nbsp; Compute</div>
+        <div class="server server-two">▤ &nbsp; Storage</div>
+        <div class="server server-three">▤ &nbsp; Database</div>
+      </div>
+    </section>
+
+    <section class="section" id="features">
+      <div class="section-heading">
+        <p class="eyebrow">BUILT FOR DEVELOPERS</p>
+        <h2>Everything you need to build</h2>
+        <p>Powerful cloud tools, without unnecessary complexity.</p>
+      </div>
+
+      <div class="feature-grid">
+        <article class="feature-card">
+          <span class="feature-icon" aria-hidden="true">↗</span>
+          <h3>Cloud Compute</h3>
+          <p>Run your applications on flexible virtual machines.</p>
+          <a href="#pricing">Explore compute →</a>
+        </article>
+        <article class="feature-card">
+          <span class="feature-icon" aria-hidden="true">⌘</span>
+          <h3>App Platform</h3>
+          <p>Build and deploy apps without managing servers.</p>
+          <a href="#pricing">Explore app hosting →</a>
+        </article>
+        <article class="feature-card">
+          <span class="feature-icon" aria-hidden="true">◈</span>
+          <h3>Managed Databases</h3>
+          <p>Store and manage application data with less effort.</p>
+          <a href="#pricing">Explore databases →</a>
+        </article>
+        <article class="feature-card">
+          <span class="feature-icon" aria-hidden="true">▦</span>
+          <h3>Cloud Storage</h3>
+          <p>Store your files and application assets in the cloud.</p>
+          <a href="#pricing">Explore storage →</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="pricing section" id="pricing">
+      <div class="section-heading">
+        <p class="eyebrow">SIMPLE AND PREDICTABLE</p>
+        <h2>Plans for every stage</h2>
+        <p>Illustrative plans for this student project.</p>
+      </div>
+
+      <div class="pricing-grid">
+        <article class="price-card">
+          <h3>Starter</h3>
+          <p>For learning and experiments.</p>
+          <p class="price">Free <span>/ demo</span></p>
+          <a href="#footer" class="btn btn-outline">Get started</a>
+          <ul>
+            <li>✓ Personal projects</li>
+            <li>✓ Basic deployment</li>
+            <li>✓ Learning resources</li>
+          </ul>
+        </article>
+        <article class="price-card featured">
+          <span class="plan-label">POPULAR</span>
+          <h3>Developer</h3>
+          <p>For growing applications.</p>
+          <p class="price">Custom <span>/ demo</span></p>
+          <a href="#footer" class="btn">Choose plan</a>
+          <ul>
+            <li>✓ Flexible compute</li>
+            <li>✓ Application hosting</li>
+            <li>✓ Deployment tools</li>
+          </ul>
+        </article>
+        <article class="price-card">
+          <h3>Business</h3>
+          <p>For larger workloads.</p>
+          <p class="price">Custom <span>/ demo</span></p>
+          <a href="#footer" class="btn btn-outline">Contact us</a>
+          <ul>
+            <li>✓ Scalable infrastructure</li>
+            <li>✓ Managed services</li>
+            <li>✓ Advanced workflows</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="cta">
+      <h2>Your next idea starts here.</h2>
+      <p>Build, launch, and keep improving.</p>
+      <a href="#products" class="btn">Explore the platform →</a>
+    </section>
+  </main>
+
+  <footer id="footer">
+    <a class="logo footer-logo" href="#">◆ ocean</a>
+    <p>Cloud infrastructure for people who build.</p>
+    <div class="footer-links">
+      <a href="#products">Products</a>
+      <a href="#features">Solutions</a>
+      <a href="#pricing">Pricing</a>
+    </div>
+    <p class="copyright">
+      Educational landing-page clone · Not affiliated with DigitalOcean.
+    </p>
+  </footer>
+</body>
+</html>
